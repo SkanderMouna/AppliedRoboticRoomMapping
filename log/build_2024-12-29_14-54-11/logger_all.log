@@ -1,0 +1,609 @@
+[0.273s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.273s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f616ad5ece0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f616af2c0d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f616af2c0d0>>)
+[0.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.839s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/student/ros2_ws'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['ignore', 'ignore_ament_install']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ignore'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ignore_ament_install'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['colcon_pkg']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'colcon_pkg'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['colcon_meta']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'colcon_meta'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['ros']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ros'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['cmake', 'python']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'cmake'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'python'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['python_setup_py']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'python_setup_py'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(bags/turtlebot3_bag) by extensions ['ignore', 'ignore_ament_install']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(bags/turtlebot3_bag) by extension 'ignore'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(bags/turtlebot3_bag) by extension 'ignore_ament_install'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(bags/turtlebot3_bag) by extensions ['colcon_pkg']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(bags/turtlebot3_bag) by extension 'colcon_pkg'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(bags/turtlebot3_bag) by extensions ['colcon_meta']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(bags/turtlebot3_bag) by extension 'colcon_meta'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(bags/turtlebot3_bag) by extensions ['ros']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(bags/turtlebot3_bag) by extension 'ros'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(bags/turtlebot3_bag) by extensions ['cmake', 'python']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(bags/turtlebot3_bag) by extension 'cmake'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(bags/turtlebot3_bag) by extension 'python'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(bags/turtlebot3_bag) by extensions ['python_setup_py']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(bags/turtlebot3_bag) by extension 'python_setup_py'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_slam_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_slam_mapping) by extension 'ignore'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_slam_mapping) by extension 'ignore_ament_install'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_slam_mapping) by extensions ['colcon_pkg']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_slam_mapping) by extension 'colcon_pkg'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_slam_mapping) by extensions ['colcon_meta']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_slam_mapping) by extension 'colcon_meta'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_slam_mapping) by extensions ['ros']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_slam_mapping) by extension 'ros'
+[0.881s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_slam_mapping' with type 'ros.ament_python' and name 'lidar_slam_mapping'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/objectRecognition) by extensions ['ignore', 'ignore_ament_install']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/objectRecognition) by extension 'ignore'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/objectRecognition) by extension 'ignore_ament_install'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/objectRecognition) by extensions ['colcon_pkg']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/objectRecognition) by extension 'colcon_pkg'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/objectRecognition) by extensions ['colcon_meta']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/objectRecognition) by extension 'colcon_meta'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/objectRecognition) by extensions ['ros']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/objectRecognition) by extension 'ros'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/objectRecognition) by extensions ['cmake', 'python']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/objectRecognition) by extension 'cmake'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/objectRecognition) by extension 'python'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/objectRecognition) by extensions ['python_setup_py']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/objectRecognition) by extension 'python_setup_py'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'ignore'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'ignore_ament_install'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['colcon_pkg']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'colcon_pkg'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['colcon_meta']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'colcon_meta'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['ros']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'ros'
+[0.886s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rslidar_msg' with type 'ros.ament_cmake' and name 'rslidar_msg'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'ignore'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'ignore_ament_install'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['colcon_pkg']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'colcon_pkg'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['colcon_meta']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'colcon_meta'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['ros']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'ros'
+[0.934s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rslidar_sdk' with type 'ros.ament_cmake' and name 'rslidar_sdk'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'ignore'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'ignore_ament_install'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extensions ['colcon_pkg']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'colcon_pkg'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extensions ['colcon_meta']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'colcon_meta'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extensions ['ros']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'ros'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extensions ['cmake', 'python']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'cmake'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'python'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extensions ['python_setup_py']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'python_setup_py'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extensions ['ignore', 'ignore_ament_install']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extension 'ignore'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extension 'ignore_ament_install'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extensions ['colcon_pkg']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extension 'colcon_pkg'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extensions ['colcon_meta']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extension 'colcon_meta'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extensions ['ros']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extension 'ros'
+[0.941s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_ros2/scout_base' with type 'ros.ament_cmake' and name 'scout_base'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extensions ['ignore', 'ignore_ament_install']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extension 'ignore'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extension 'ignore_ament_install'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extensions ['colcon_pkg']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extension 'colcon_pkg'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extensions ['colcon_meta']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extension 'colcon_meta'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extensions ['ros']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extension 'ros'
+[0.943s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_ros2/scout_description' with type 'ros.ament_cmake' and name 'scout_description'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extension 'ignore_ament_install'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extensions ['colcon_pkg']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extension 'colcon_pkg'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extensions ['colcon_meta']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extension 'colcon_meta'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extensions ['ros']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extension 'ros'
+[0.946s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_ros2/scout_msgs' with type 'ros.ament_cmake' and name 'scout_msgs'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ignore'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ignore_ament_install'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['colcon_pkg']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'colcon_pkg'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['colcon_meta']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'colcon_meta'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['ros']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ros'
+[0.949s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sdk' with type 'ros.catkin' and name 'ugv_sdk'
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.001s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/student/ros2_ws/install/scout_base' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.001s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/student/ros2_ws/install/scout_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.001s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/student/ros2_ws/install/scout_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.001s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/student/ros2_ws/install/lidar_slam_mapping' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.001s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/student/ros2_ws/install/rslidar_sdk' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.001s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/student/ros2_ws/install/rslidar_msg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.001s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/student/ros2_ws/install/rplidar_ros' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.002s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/student/ros2_ws/install/lidar_slam_nav2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.002s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/student/ros2_ws/install/cartographer_rviz' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.002s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/student/ros2_ws/install/cartographer_ros' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.002s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/student/ros2_ws/install/cartographer_ros_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.002s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/student/ros2_ws/install/scout_base' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.002s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/student/ros2_ws/install/ugv_sdk' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.002s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/student/ros2_ws/install/scout_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.003s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/student/ros2_ws/install/scout_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.003s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/student/ros2_ws/install/rslidar_sdk' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.003s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/student/ros2_ws/install/rslidar_msg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.003s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/student/ros2_ws/install/rplidar_ros' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.003s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/student/ros2_ws/install/cartographer_rviz' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.003s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/student/ros2_ws/install/cartographer_ros' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.003s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/student/ros2_ws/install/cartographer_ros_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.005s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/student/ros2_ws/install
+[1.009s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 387 installed packages in /opt/ros/humble
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_args' from command line to 'None'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_target' from command line to 'None'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_clean_first' from command line to 'False'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_force_configure' from command line to 'False'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'ament_cmake_args' from command line to 'None'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.153s] DEBUG:colcon.colcon_core.verb:Building package 'rslidar_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/ros2_ws/build/rslidar_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/ros2_ws/install/rslidar_msg', 'merge_install': False, 'path': '/home/student/ros2_ws/src/rslidar_msg', 'symlink_install': False, 'test_result_base': None}
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_args' from command line to 'None'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_target' from command line to 'None'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.155s] DEBUG:colcon.colcon_core.verb:Building package 'scout_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/ros2_ws/build/scout_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/ros2_ws/install/scout_description', 'merge_install': False, 'path': '/home/student/ros2_ws/src/scout_ros2/scout_description', 'symlink_install': False, 'test_result_base': None}
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_args' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_target' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.156s] DEBUG:colcon.colcon_core.verb:Building package 'scout_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/ros2_ws/build/scout_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/ros2_ws/install/scout_msgs', 'merge_install': False, 'path': '/home/student/ros2_ws/src/scout_ros2/scout_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.157s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_args' from command line to 'None'
+[1.157s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_target' from command line to 'None'
+[1.157s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.157s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.158s] DEBUG:colcon.colcon_core.verb:Building package 'ugv_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/ros2_ws/build/ugv_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/ros2_ws/install/ugv_sdk', 'merge_install': False, 'path': '/home/student/ros2_ws/src/ugv_sdk', 'symlink_install': False, 'test_result_base': None}
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_args' from command line to 'None'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_target' from command line to 'None'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[1.160s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.160s] DEBUG:colcon.colcon_core.verb:Building package 'rslidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/ros2_ws/build/rslidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/ros2_ws/install/rslidar_sdk', 'merge_install': False, 'path': '/home/student/ros2_ws/src/rslidar_sdk', 'symlink_install': False, 'test_result_base': None}
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_args' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_target' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_clean_cache' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_clean_first' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_force_configure' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'ament_cmake_args' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'catkin_cmake_args' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.161s] DEBUG:colcon.colcon_core.verb:Building package 'scout_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/ros2_ws/build/scout_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/ros2_ws/install/scout_base', 'merge_install': False, 'path': '/home/student/ros2_ws/src/scout_ros2/scout_base', 'symlink_install': False, 'test_result_base': None}
+[1.162s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_mapping' build argument 'cmake_args' from command line to 'None'
+[1.162s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_mapping' build argument 'cmake_target' from command line to 'None'
+[1.162s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.162s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[1.162s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.163s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_slam_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/ros2_ws/build/lidar_slam_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/ros2_ws/install/lidar_slam_mapping', 'merge_install': False, 'path': '/home/student/ros2_ws/src/lidar_slam_mapping', 'symlink_install': False, 'test_result_base': None}
+[1.163s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.165s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.166s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/ros2_ws/src/rslidar_msg' with build type 'ament_cmake'
+[1.166s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/ros2_ws/src/rslidar_msg'
+[1.171s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.172s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.184s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/ros2_ws/src/scout_ros2/scout_msgs' with build type 'ament_cmake'
+[1.184s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/ros2_ws/src/scout_ros2/scout_msgs'
+[1.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/rslidar_msg -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/rslidar_msg
+[1.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/scout_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/scout_ros2/scout_msgs -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scout_msgs
+[5.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/scout_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/scout_ros2/scout_msgs -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scout_msgs
+[5.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/scout_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scout_msgs -- -j2 -l2
+[7.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/rslidar_msg -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/rslidar_msg
+[7.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/rslidar_msg -- -j2 -l2
+[22.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/rslidar_msg -- -j2 -l2
+[22.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/rslidar_msg
+[22.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_msg)
+[22.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/rslidar_msg
+[22.662s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_msg' for CMake module files
+[22.663s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_msg' for CMake config files
+[22.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'cmake_prefix_path')
+[22.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.ps1'
+[22.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.dsv'
+[22.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.sh'
+[22.669s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_msg/lib'
+[22.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'ld_library_path_lib')
+[22.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.ps1'
+[22.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.dsv'
+[22.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.sh'
+[22.673s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_msg/bin'
+[22.673s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_msg/lib/pkgconfig/rslidar_msg.pc'
+[22.674s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_msg/lib/python3.10/site-packages'
+[22.674s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_msg/bin'
+[22.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/package.ps1'
+[22.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/package.dsv'
+[22.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/package.sh'
+[22.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/package.bash'
+[22.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/package.zsh'
+[22.685s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/ros2_ws/install/rslidar_msg/share/colcon-core/packages/rslidar_msg)
+[22.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_msg)
+[22.687s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_msg' for CMake module files
+[22.689s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_msg' for CMake config files
+[22.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'cmake_prefix_path')
+[22.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.ps1'
+[22.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.dsv'
+[22.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.sh'
+[22.693s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_msg/lib'
+[22.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'ld_library_path_lib')
+[22.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.ps1'
+[22.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.dsv'
+[22.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.sh'
+[22.697s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_msg/bin'
+[22.701s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_msg/lib/pkgconfig/rslidar_msg.pc'
+[22.701s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_msg/lib/python3.10/site-packages'
+[22.702s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_msg/bin'
+[22.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/package.ps1'
+[22.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/package.dsv'
+[22.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/package.sh'
+[22.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/package.bash'
+[22.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/package.zsh'
+[22.710s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/ros2_ws/install/rslidar_msg/share/colcon-core/packages/rslidar_msg)
+[22.712s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/student/ros2_ws/src/ugv_sdk' with build type 'catkin'
+[22.713s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/ros2_ws/src/ugv_sdk'
+[22.713s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.713s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/ugv_sdk': /usr/bin/cmake /home/student/ros2_ws/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/ugv_sdk
+[23.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake /home/student/ros2_ws/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/ugv_sdk
+[23.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/ugv_sdk': /usr/bin/cmake --build /home/student/ros2_ws/build/ugv_sdk -- -j2 -l2
+[46.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/scout_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scout_msgs -- -j2 -l2
+[46.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/scout_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/scout_msgs
+[46.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_msgs)
+[46.892s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_msgs' for CMake module files
+[46.893s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_msgs' for CMake config files
+[46.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/scout_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/scout_msgs
+[46.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_msgs', 'cmake_prefix_path')
+[46.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.ps1'
+[46.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.dsv'
+[46.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.sh'
+[46.900s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_msgs/lib'
+[46.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_msgs', 'ld_library_path_lib')
+[46.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.ps1'
+[46.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.dsv'
+[46.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.sh'
+[46.903s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_msgs/bin'
+[46.904s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_msgs/lib/pkgconfig/scout_msgs.pc'
+[46.904s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_msgs/lib/python3.10/site-packages'
+[46.905s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_msgs/bin'
+[46.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/package.ps1'
+[46.907s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/package.dsv'
+[46.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/package.sh'
+[46.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/package.bash'
+[46.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/package.zsh'
+[46.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/ros2_ws/install/scout_msgs/share/colcon-core/packages/scout_msgs)
+[46.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_msgs)
+[46.914s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_msgs' for CMake module files
+[46.916s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_msgs' for CMake config files
+[46.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_msgs', 'cmake_prefix_path')
+[46.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.ps1'
+[46.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.dsv'
+[46.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.sh'
+[46.921s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_msgs/lib'
+[46.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_msgs', 'ld_library_path_lib')
+[46.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.ps1'
+[46.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.dsv'
+[46.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.sh'
+[46.925s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_msgs/bin'
+[46.926s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_msgs/lib/pkgconfig/scout_msgs.pc'
+[46.926s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_msgs/lib/python3.10/site-packages'
+[46.927s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_msgs/bin'
+[46.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/package.ps1'
+[46.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/package.dsv'
+[46.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/package.sh'
+[46.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/package.bash'
+[46.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/package.zsh'
+[46.935s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/ros2_ws/install/scout_msgs/share/colcon-core/packages/scout_msgs)
+[46.937s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/ros2_ws/src/rslidar_sdk' with build type 'ament_cmake'
+[46.938s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/ros2_ws/src/rslidar_sdk'
+[46.938s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[46.938s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[46.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/home/student/ros2_ws/install/cartographer_rviz/lib:/home/student/ros2_ws/install/cartographer_ros/lib:/home/student/ros2_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/student/ros2_ws/src/rslidar_sdk -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/rslidar_sdk
+[50.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/home/student/ros2_ws/install/cartographer_rviz/lib:/home/student/ros2_ws/install/cartographer_ros/lib:/home/student/ros2_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/student/ros2_ws/src/rslidar_sdk -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/rslidar_sdk
+[50.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/home/student/ros2_ws/install/cartographer_rviz/lib:/home/student/ros2_ws/install/cartographer_ros/lib:/home/student/ros2_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/student/ros2_ws/build/rslidar_sdk -- -j2 -l2
+[98.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/student/ros2_ws/build/ugv_sdk -- -j2 -l2
+[98.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/ugv_sdk': /usr/bin/cmake --install /home/student/ros2_ws/build/ugv_sdk
+[98.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'ros_package_path')
+[98.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.ps1'
+[98.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/student/ros2_ws/build/ugv_sdk
+[98.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.dsv'
+[98.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.sh'
+[98.414s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'pkg_config_path')
+[98.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.ps1'
+[98.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.dsv'
+[98.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.sh'
+[98.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'pkg_config_path_multiarch')
+[98.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.ps1'
+[98.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.dsv'
+[98.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.sh'
+[98.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_sdk)
+[98.426s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/ugv_sdk' for CMake module files
+[98.428s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/ugv_sdk' for CMake config files
+[98.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'cmake_prefix_path')
+[98.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.ps1'
+[98.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.dsv'
+[98.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.sh'
+[98.432s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/ugv_sdk/lib'
+[98.432s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/ugv_sdk/bin'
+[98.433s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/ugv_sdk/lib/pkgconfig/ugv_sdk.pc'
+[98.433s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/ugv_sdk/lib/python3.10/site-packages'
+[98.434s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/ugv_sdk/bin'
+[98.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/package.ps1'
+[98.437s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/package.dsv'
+[98.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/package.sh'
+[98.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/package.bash'
+[98.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/ugv_sdk/share/ugv_sdk/package.zsh'
+[98.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/ros2_ws/install/ugv_sdk/share/colcon-core/packages/ugv_sdk)
+[98.444s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/ros2_ws/src/scout_ros2/scout_description' with build type 'ament_cmake'
+[98.445s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/ros2_ws/src/scout_ros2/scout_description'
+[98.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[98.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[98.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/scout_description': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake /home/student/ros2_ws/src/scout_ros2/scout_description -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scout_description
+[100.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake /home/student/ros2_ws/src/scout_ros2/scout_description -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scout_description
+[100.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/scout_description': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake --build /home/student/ros2_ws/build/scout_description -- -j2 -l2
+[100.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake --build /home/student/ros2_ws/build/scout_description -- -j2 -l2
+[100.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/scout_description': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake --install /home/student/ros2_ws/build/scout_description
+[100.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_description)
+[100.418s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_description' for CMake module files
+[100.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake --install /home/student/ros2_ws/build/scout_description
+[100.422s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_description' for CMake config files
+[100.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_description', 'cmake_prefix_path')
+[100.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.ps1'
+[100.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.dsv'
+[100.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.sh'
+[100.427s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_description/bin'
+[100.427s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_description/lib/pkgconfig/scout_description.pc'
+[100.428s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_description/lib/python3.10/site-packages'
+[100.429s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_description/bin'
+[100.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_description/share/scout_description/package.ps1'
+[100.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/ros2_ws/install/scout_description/share/scout_description/package.dsv'
+[100.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_description/share/scout_description/package.sh'
+[100.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_description/share/scout_description/package.bash'
+[100.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_description/share/scout_description/package.zsh'
+[100.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/ros2_ws/install/scout_description/share/colcon-core/packages/scout_description)
+[100.437s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_description)
+[100.438s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_description' for CMake module files
+[100.439s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_description' for CMake config files
+[100.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_description', 'cmake_prefix_path')
+[100.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.ps1'
+[100.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.dsv'
+[100.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.sh'
+[100.445s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_description/bin'
+[100.446s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_description/lib/pkgconfig/scout_description.pc'
+[100.446s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_description/lib/python3.10/site-packages'
+[100.447s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_description/bin'
+[100.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_description/share/scout_description/package.ps1'
+[100.449s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/ros2_ws/install/scout_description/share/scout_description/package.dsv'
+[100.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_description/share/scout_description/package.sh'
+[100.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_description/share/scout_description/package.bash'
+[100.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_description/share/scout_description/package.zsh'
+[100.453s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/ros2_ws/install/scout_description/share/colcon-core/packages/scout_description)
+[100.455s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/ros2_ws/src/scout_ros2/scout_base' with build type 'ament_cmake'
+[100.456s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/ros2_ws/src/scout_ros2/scout_base'
+[100.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[100.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[100.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/scout_base': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake /home/student/ros2_ws/src/scout_ros2/scout_base -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scout_base
+[104.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/scout_base' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake /home/student/ros2_ws/src/scout_ros2/scout_base -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scout_base
+[104.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/scout_base': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake --build /home/student/ros2_ws/build/scout_base -- -j2 -l2
+[115.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/home/student/ros2_ws/install/cartographer_rviz/lib:/home/student/ros2_ws/install/cartographer_ros/lib:/home/student/ros2_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/student/ros2_ws/build/rslidar_sdk -- -j2 -l2
+[115.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/home/student/ros2_ws/install/cartographer_rviz/lib:/home/student/ros2_ws/install/cartographer_ros/lib:/home/student/ros2_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/student/ros2_ws/build/rslidar_sdk
+[115.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_sdk)
+[115.513s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_sdk' for CMake module files
+[115.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/home/student/ros2_ws/install/cartographer_rviz/lib:/home/student/ros2_ws/install/cartographer_ros/lib:/home/student/ros2_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/student/ros2_ws/build/rslidar_sdk
+[115.515s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_sdk' for CMake config files
+[115.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_sdk', 'cmake_prefix_path')
+[115.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.ps1'
+[115.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.dsv'
+[115.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.sh'
+[115.521s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_sdk/lib'
+[115.521s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_sdk/bin'
+[115.521s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_sdk/lib/pkgconfig/rslidar_sdk.pc'
+[115.522s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_sdk/lib/python3.10/site-packages'
+[115.522s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_sdk/bin'
+[115.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/package.ps1'
+[115.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv'
+[115.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/package.sh'
+[115.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/package.bash'
+[115.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/package.zsh'
+[115.528s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/ros2_ws/install/rslidar_sdk/share/colcon-core/packages/rslidar_sdk)
+[115.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_sdk)
+[115.530s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_sdk' for CMake module files
+[115.532s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_sdk' for CMake config files
+[115.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_sdk', 'cmake_prefix_path')
+[115.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.ps1'
+[115.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.dsv'
+[115.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.sh'
+[115.537s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_sdk/lib'
+[115.537s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_sdk/bin'
+[115.538s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_sdk/lib/pkgconfig/rslidar_sdk.pc'
+[115.538s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_sdk/lib/python3.10/site-packages'
+[115.539s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/rslidar_sdk/bin'
+[115.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/package.ps1'
+[115.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv'
+[115.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/package.sh'
+[115.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/package.bash'
+[115.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/package.zsh'
+[115.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/ros2_ws/install/rslidar_sdk/share/colcon-core/packages/rslidar_sdk)
+[115.549s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student/ros2_ws/src/lidar_slam_mapping' with build type 'ament_python'
+[115.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_slam_mapping', 'ament_prefix_path')
+[115.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/lidar_slam_mapping/share/lidar_slam_mapping/hook/ament_prefix_path.ps1'
+[115.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/lidar_slam_mapping/share/lidar_slam_mapping/hook/ament_prefix_path.dsv'
+[115.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/lidar_slam_mapping/share/lidar_slam_mapping/hook/ament_prefix_path.sh'
+[115.554s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[115.554s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[116.568s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'lidar_slam_mapping' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[116.569s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student/ros2_ws/src/lidar_slam_mapping'
+[116.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[116.570s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[117.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/src/lidar_slam_mapping': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/home/student/ros2_ws/install/cartographer_rviz/lib:/home/student/ros2_ws/install/cartographer_ros/lib:/home/student/ros2_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/student/ros2_ws/build/lidar_slam_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/lidar_slam_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_slam_mapping build --build-base /home/student/ros2_ws/build/lidar_slam_mapping/build install --record /home/student/ros2_ws/build/lidar_slam_mapping/install.log --single-version-externally-managed install_data
+[118.890s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/lidar_slam_mapping' for CMake module files
+[118.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/src/lidar_slam_mapping' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/home/student/ros2_ws/install/cartographer_rviz/lib:/home/student/ros2_ws/install/cartographer_ros/lib:/home/student/ros2_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/student/ros2_ws/build/lidar_slam_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/lidar_slam_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_slam_mapping build --build-base /home/student/ros2_ws/build/lidar_slam_mapping/build install --record /home/student/ros2_ws/build/lidar_slam_mapping/install.log --single-version-externally-managed install_data
+[118.892s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/lidar_slam_mapping' for CMake config files
+[118.894s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/lidar_slam_mapping/lib'
+[118.894s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/lidar_slam_mapping/bin'
+[118.894s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/lidar_slam_mapping/lib/pkgconfig/lidar_slam_mapping.pc'
+[118.895s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/lidar_slam_mapping/lib/python3.10/site-packages'
+[118.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_slam_mapping', 'pythonpath')
+[118.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/lidar_slam_mapping/share/lidar_slam_mapping/hook/pythonpath.ps1'
+[118.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/lidar_slam_mapping/share/lidar_slam_mapping/hook/pythonpath.dsv'
+[118.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/lidar_slam_mapping/share/lidar_slam_mapping/hook/pythonpath.sh'
+[118.899s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/lidar_slam_mapping/bin'
+[118.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_slam_mapping)
+[118.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/lidar_slam_mapping/share/lidar_slam_mapping/package.ps1'
+[118.902s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/ros2_ws/install/lidar_slam_mapping/share/lidar_slam_mapping/package.dsv'
+[118.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/lidar_slam_mapping/share/lidar_slam_mapping/package.sh'
+[118.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/lidar_slam_mapping/share/lidar_slam_mapping/package.bash'
+[118.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/lidar_slam_mapping/share/lidar_slam_mapping/package.zsh'
+[118.906s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/ros2_ws/install/lidar_slam_mapping/share/colcon-core/packages/lidar_slam_mapping)
+[149.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/scout_base' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake --build /home/student/ros2_ws/build/scout_base -- -j2 -l2
+[149.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/build/scout_base': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake --install /home/student/ros2_ws/build/scout_base
+[149.316s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_base)
+[149.318s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_base' for CMake module files
+[149.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/build/scout_base' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake --install /home/student/ros2_ws/build/scout_base
+[149.320s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_base' for CMake config files
+[149.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_base', 'cmake_prefix_path')
+[149.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_base/share/scout_base/hook/cmake_prefix_path.ps1'
+[149.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/scout_base/share/scout_base/hook/cmake_prefix_path.dsv'
+[149.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_base/share/scout_base/hook/cmake_prefix_path.sh'
+[149.324s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_base/lib'
+[149.325s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_base/bin'
+[149.325s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_base/lib/pkgconfig/scout_base.pc'
+[149.325s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_base/lib/python3.10/site-packages'
+[149.326s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_base/bin'
+[149.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_base/share/scout_base/package.ps1'
+[149.328s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/ros2_ws/install/scout_base/share/scout_base/package.dsv'
+[149.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_base/share/scout_base/package.sh'
+[149.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_base/share/scout_base/package.bash'
+[149.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_base/share/scout_base/package.zsh'
+[149.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/ros2_ws/install/scout_base/share/colcon-core/packages/scout_base)
+[149.333s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_base)
+[149.333s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_base' for CMake module files
+[149.334s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_base' for CMake config files
+[149.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_base', 'cmake_prefix_path')
+[149.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_base/share/scout_base/hook/cmake_prefix_path.ps1'
+[149.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/install/scout_base/share/scout_base/hook/cmake_prefix_path.dsv'
+[149.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/install/scout_base/share/scout_base/hook/cmake_prefix_path.sh'
+[149.338s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_base/lib'
+[149.339s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_base/bin'
+[149.339s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_base/lib/pkgconfig/scout_base.pc'
+[149.339s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_base/lib/python3.10/site-packages'
+[149.340s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/install/scout_base/bin'
+[149.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_base/share/scout_base/package.ps1'
+[149.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/ros2_ws/install/scout_base/share/scout_base/package.dsv'
+[149.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_base/share/scout_base/package.sh'
+[149.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_base/share/scout_base/package.bash'
+[149.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/install/scout_base/share/scout_base/package.zsh'
+[149.346s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/ros2_ws/install/scout_base/share/colcon-core/packages/scout_base)
+[149.347s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[149.347s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[149.348s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[149.348s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[149.359s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[149.359s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[149.359s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[149.382s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[149.384s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/ros2_ws/install/local_setup.ps1'
+[149.390s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/ros2_ws/install/_local_setup_util_ps1.py'
+[149.395s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/ros2_ws/install/setup.ps1'
+[149.399s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/ros2_ws/install/local_setup.sh'
+[149.401s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/ros2_ws/install/_local_setup_util_sh.py'
+[149.402s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/ros2_ws/install/setup.sh'
+[149.406s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/ros2_ws/install/local_setup.bash'
+[149.407s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/ros2_ws/install/setup.bash'
+[149.410s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/ros2_ws/install/local_setup.zsh'
+[149.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/ros2_ws/install/setup.zsh'

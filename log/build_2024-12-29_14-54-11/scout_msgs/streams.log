@@ -1,0 +1,348 @@
+[0.041s] Invoking command in '/home/student/ros2_ws/build/scout_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/scout_ros2/scout_msgs -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scout_msgs
+[0.180s] -- The C compiler identification is GNU 11.4.0
+[0.314s] -- The CXX compiler identification is GNU 11.4.0
+[0.330s] -- Detecting C compiler ABI info
+[0.481s] -- Detecting C compiler ABI info - done
+[0.503s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.506s] -- Detecting C compile features
+[0.509s] -- Detecting C compile features - done
+[0.518s] -- Detecting CXX compiler ABI info
+[0.702s] -- Detecting CXX compiler ABI info - done
+[0.728s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.729s] -- Detecting CXX compile features
+[0.731s] -- Detecting CXX compile features - done
+[0.736s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.109s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.340s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.428s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.441s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.463s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.496s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.542s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.581s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.608s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[2.402s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.369s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.726s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.781s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.785s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.847s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.848s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.848s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.848s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.898s] -- Found PythonExtra: .so  
+[4.038s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.087s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.091s] -- Added test 'lint_cmake' to check CMake code style
+[4.094s] -- Added test 'xmllint' to check XML markup files
+[4.101s] -- Configuring done
+[4.216s] -- Generating done
+[4.246s] -- Build files have been written to: /home/student/ros2_ws/build/scout_msgs
+[4.263s] Invoked command in '/home/student/ros2_ws/build/scout_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/scout_ros2/scout_msgs -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scout_msgs
+[4.266s] Invoking command in '/home/student/ros2_ws/build/scout_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scout_msgs -- -j2 -l2
+[4.383s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.391s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.717s] [  3%] Built target scout_msgs__cpp
+[7.775s] [  4%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_msgs/msg/detail/scout_actuator_state__functions.c.o[0m
+[7.814s] [  4%] Built target ament_cmake_python_copy_scout_msgs
+[7.875s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.999s] [  7%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_msgs/msg/detail/scout_light_cmd__functions.c.o[0m
+[8.246s] [  9%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_msgs/msg/detail/scout_light_state__functions.c.o[0m
+[8.490s] [ 11%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_msgs/msg/detail/scout_rc_state__functions.c.o[0m
+[8.759s] [ 12%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_msgs/msg/detail/scout_status__functions.c.o[0m
+[9.031s] [ 14%] [32m[1mLinking C shared library libscout_msgs__rosidl_generator_c.so[0m
+[9.272s] [ 14%] Built target scout_msgs__rosidl_generator_c
+[9.342s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.359s] [ 17%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_msgs/msg/scout_actuator_state__type_support.cpp.o[0m
+[11.852s] [ 19%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_msgs/msg/scout_light_cmd__type_support.cpp.o[0m
+[12.796s] [ 20%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_msgs/msg/detail/dds_fastrtps/scout_actuator_state__type_support.cpp.o[0m
+[13.345s] [ 22%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_msgs/msg/scout_light_state__type_support.cpp.o[0m
+[14.992s] [ 23%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_msgs/msg/scout_rc_state__type_support.cpp.o[0m
+[15.084s] [ 25%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_msgs/msg/detail/dds_fastrtps/scout_light_cmd__type_support.cpp.o[0m
+[16.437s] [ 26%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_msgs/msg/scout_status__type_support.cpp.o[0m
+[17.230s] [ 28%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_msgs/msg/detail/dds_fastrtps/scout_light_state__type_support.cpp.o[0m
+[17.911s] [ 30%] [32m[1mLinking CXX shared library libscout_msgs__rosidl_typesupport_cpp.so[0m
+[18.098s] [ 30%] Built target scout_msgs__rosidl_typesupport_cpp
+[18.550s] [ 31%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_msgs/msg/detail/dds_fastrtps/scout_rc_state__type_support.cpp.o[0m
+[19.680s] [ 33%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_msgs/msg/detail/dds_fastrtps/scout_status__type_support.cpp.o[0m
+[20.831s] [ 34%] [32m[1mLinking CXX shared library libscout_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.033s] [ 34%] Built target scout_msgs__rosidl_typesupport_fastrtps_cpp
+[21.053s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[22.805s] [ 38%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_msgs/msg/detail/scout_actuator_state__type_support.c.o[0m
+[22.878s] [ 39%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_msgs/msg/detail/scout_light_cmd__type_support.c.o[0m
+[22.953s] [ 41%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_msgs/msg/detail/scout_light_state__type_support.c.o[0m
+[23.027s] [ 42%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_msgs/msg/detail/scout_rc_state__type_support.c.o[0m
+[23.097s] [ 44%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_msgs/msg/detail/scout_status__type_support.c.o[0m
+[23.182s] [ 46%] [32m[1mLinking C shared library libscout_msgs__rosidl_typesupport_introspection_c.so[0m
+[23.255s] [ 46%] Built target scout_msgs__rosidl_typesupport_introspection_c
+[23.276s] [ 47%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[24.585s] [ 49%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_msgs/msg/scout_actuator_state__type_support.cpp.o[0m
+[24.649s] [ 50%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_msgs/msg/scout_light_cmd__type_support.cpp.o[0m
+[24.710s] [ 52%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_msgs/msg/scout_light_state__type_support.cpp.o[0m
+[24.773s] [ 53%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_msgs/msg/scout_rc_state__type_support.cpp.o[0m
+[24.836s] [ 55%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_msgs/msg/scout_status__type_support.cpp.o[0m
+[24.902s] [ 57%] [32m[1mLinking CXX shared library libscout_msgs__rosidl_typesupport_c.so[0m
+[25.006s] [ 57%] Built target scout_msgs__rosidl_typesupport_c
+[25.028s] [ 58%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[26.467s] [ 60%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_msgs/msg/detail/scout_actuator_state__type_support.cpp.o[0m
+[27.535s] [ 61%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_msgs/msg/detail/scout_light_cmd__type_support.cpp.o[0m
+[28.629s] [ 63%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_msgs/msg/detail/scout_light_state__type_support.cpp.o[0m
+[29.703s] [ 65%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_msgs/msg/detail/scout_rc_state__type_support.cpp.o[0m
+[30.782s] [ 66%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_msgs/msg/detail/scout_status__type_support.cpp.o[0m
+[31.915s] [ 68%] [32m[1mLinking CXX shared library libscout_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[32.112s] [ 68%] Built target scout_msgs__rosidl_typesupport_introspection_cpp
+[32.887s] running egg_info
+[32.889s] creating scout_msgs.egg-info
+[32.890s] writing scout_msgs.egg-info/PKG-INFO
+[32.890s] writing dependency_links to scout_msgs.egg-info/dependency_links.txt
+[32.891s] writing top-level names to scout_msgs.egg-info/top_level.txt
+[32.894s] writing manifest file 'scout_msgs.egg-info/SOURCES.txt'
+[32.899s] reading manifest file 'scout_msgs.egg-info/SOURCES.txt'
+[32.901s] writing manifest file 'scout_msgs.egg-info/SOURCES.txt'
+[32.986s] [ 68%] Built target ament_cmake_python_build_scout_msgs_egg
+[33.009s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[34.607s] [ 71%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_msgs/msg/detail/scout_actuator_state__type_support_c.cpp.o[0m
+[35.529s] [ 73%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_msgs/msg/detail/scout_light_cmd__type_support_c.cpp.o[0m
+[36.468s] [ 74%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_msgs/msg/detail/scout_light_state__type_support_c.cpp.o[0m
+[37.393s] [ 76%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_msgs/msg/detail/scout_rc_state__type_support_c.cpp.o[0m
+[38.449s] [ 77%] [32mBuilding CXX object CMakeFiles/scout_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_msgs/msg/detail/scout_status__type_support_c.cpp.o[0m
+[39.572s] [ 79%] [32m[1mLinking CXX shared library libscout_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[39.787s] [ 79%] Built target scout_msgs__rosidl_typesupport_fastrtps_c
+[39.830s] [ 79%] Built target scout_msgs
+[39.874s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[42.634s] [ 80%] Built target scout_msgs__py
+[42.676s] [ 82%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_msgs/msg/_scout_actuator_state_s.c.o[0m
+[42.934s] [ 84%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_msgs/msg/_scout_light_cmd_s.c.o[0m
+[43.264s] [ 85%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_msgs/msg/_scout_light_state_s.c.o[0m
+[43.521s] [ 87%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_msgs/msg/_scout_rc_state_s.c.o[0m
+[43.787s] [ 88%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_msgs/msg/_scout_status_s.c.o[0m
+[44.068s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/scout_msgs/libscout_msgs__rosidl_generator_py.so[0m
+[44.168s] [ 90%] Built target scout_msgs__rosidl_generator_py
+[44.211s] [ 92%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/scout_msgs/_scout_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[44.491s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/scout_msgs/scout_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[44.580s] [ 93%] Built target scout_msgs__rosidl_typesupport_fastrtps_c__pyext
+[44.622s] [ 95%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/scout_msgs/_scout_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[44.901s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/scout_msgs/scout_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[44.986s] [ 96%] Built target scout_msgs__rosidl_typesupport_introspection_c__pyext
+[45.028s] [ 98%] [32mBuilding C object CMakeFiles/scout_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/scout_msgs/_scout_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[45.304s] [100%] [32m[1mLinking C shared library rosidl_generator_py/scout_msgs/scout_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[45.391s] [100%] Built target scout_msgs__rosidl_typesupport_c__pyext
+[45.419s] Invoked command in '/home/student/ros2_ws/build/scout_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/scout_msgs -- -j2 -l2
+[45.420s] Invoking command in '/home/student/ros2_ws/build/scout_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/scout_msgs
+[45.439s] -- Install configuration: ""
+[45.440s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/ament_index/resource_index/rosidl_interfaces/scout_msgs
+[45.440s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs
+[45.441s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg
+[45.442s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/scout_status.h
+[45.442s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/scout_rc_state.h
+[45.443s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/rosidl_generator_c__visibility_control.h
+[45.444s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail
+[45.444s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_actuator_state__functions.c
+[45.445s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_cmd__type_support.h
+[45.446s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_state__functions.h
+[45.446s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_state__functions.c
+[45.447s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_actuator_state__functions.h
+[45.447s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_status__functions.c
+[45.448s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_rc_state__struct.h
+[45.449s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_state__struct.h
+[45.449s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_actuator_state__struct.h
+[45.450s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_cmd__functions.h
+[45.451s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_rc_state__type_support.h
+[45.451s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_status__type_support.h
+[45.452s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_cmd__struct.h
+[45.452s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_actuator_state__type_support.h
+[45.453s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_status__functions.h
+[45.453s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_status__struct.h
+[45.454s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_rc_state__functions.h
+[45.455s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_rc_state__functions.c
+[45.456s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_cmd__functions.c
+[45.456s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_state__type_support.h
+[45.457s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/scout_actuator_state.h
+[45.457s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/scout_light_cmd.h
+[45.458s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/scout_light_state.h
+[45.459s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/environment/library_path.sh
+[45.460s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/environment/library_path.dsv
+[45.460s] -- Installing: /home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_generator_c.so
+[45.462s] -- Set runtime path of "/home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_generator_c.so" to ""
+[45.462s] -- Up-to-date: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs
+[45.463s] -- Up-to-date: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg
+[45.463s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[45.464s] -- Up-to-date: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail
+[45.464s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_status__rosidl_typesupport_fastrtps_c.h
+[45.465s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_cmd__rosidl_typesupport_fastrtps_c.h
+[45.465s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_rc_state__rosidl_typesupport_fastrtps_c.h
+[45.466s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_actuator_state__rosidl_typesupport_fastrtps_c.h
+[45.467s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_state__rosidl_typesupport_fastrtps_c.h
+[45.467s] -- Installing: /home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_typesupport_fastrtps_c.so
+[45.469s] -- Set runtime path of "/home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[45.470s] -- Up-to-date: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs
+[45.470s] -- Up-to-date: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg
+[45.470s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/scout_actuator_state.hpp
+[45.471s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/scout_rc_state.hpp
+[45.472s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[45.472s] -- Up-to-date: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail
+[45.473s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_rc_state__traits.hpp
+[45.474s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_cmd__builder.hpp
+[45.474s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_cmd__type_support.hpp
+[45.475s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_state__struct.hpp
+[45.475s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_status__builder.hpp
+[45.476s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_state__traits.hpp
+[45.476s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_actuator_state__builder.hpp
+[45.477s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_status__type_support.hpp
+[45.478s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_status__struct.hpp
+[45.478s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_actuator_state__type_support.hpp
+[45.479s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_actuator_state__traits.hpp
+[45.480s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_state__builder.hpp
+[45.480s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_actuator_state__struct.hpp
+[45.481s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_cmd__traits.hpp
+[45.482s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_rc_state__builder.hpp
+[45.482s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_state__type_support.hpp
+[45.483s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_rc_state__type_support.hpp
+[45.485s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_cmd__struct.hpp
+[45.486s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_rc_state__struct.hpp
+[45.486s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_status__traits.hpp
+[45.487s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/scout_light_state.hpp
+[45.488s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/scout_light_cmd.hpp
+[45.489s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/scout_status.hpp
+[45.490s] -- Up-to-date: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs
+[45.490s] -- Up-to-date: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg
+[45.491s] -- Up-to-date: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail
+[45.491s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_status__rosidl_typesupport_fastrtps_cpp.hpp
+[45.492s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_actuator_state__rosidl_typesupport_fastrtps_cpp.hpp
+[45.492s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[45.493s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_state__rosidl_typesupport_fastrtps_cpp.hpp
+[45.494s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/dds_fastrtps
+[45.494s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_rc_state__rosidl_typesupport_fastrtps_cpp.hpp
+[45.495s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[45.496s] -- Installing: /home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_typesupport_fastrtps_cpp.so
+[45.497s] -- Set runtime path of "/home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[45.498s] -- Up-to-date: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs
+[45.498s] -- Up-to-date: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg
+[45.498s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[45.499s] -- Up-to-date: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail
+[45.499s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_actuator_state__type_support.c
+[45.500s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_cmd__rosidl_typesupport_introspection_c.h
+[45.501s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_state__rosidl_typesupport_introspection_c.h
+[45.501s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_state__type_support.c
+[45.502s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_rc_state__rosidl_typesupport_introspection_c.h
+[45.502s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_status__rosidl_typesupport_introspection_c.h
+[45.503s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_actuator_state__rosidl_typesupport_introspection_c.h
+[45.503s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_rc_state__type_support.c
+[45.504s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_status__type_support.c
+[45.505s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_cmd__type_support.c
+[45.506s] -- Installing: /home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_typesupport_introspection_c.so
+[45.507s] -- Set runtime path of "/home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_typesupport_introspection_c.so" to ""
+[45.508s] -- Installing: /home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_typesupport_c.so
+[45.509s] -- Set runtime path of "/home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_typesupport_c.so" to ""
+[45.509s] -- Up-to-date: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs
+[45.509s] -- Up-to-date: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg
+[45.510s] -- Up-to-date: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail
+[45.510s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_rc_state__rosidl_typesupport_introspection_cpp.hpp
+[45.511s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_state__rosidl_typesupport_introspection_cpp.hpp
+[45.511s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_cmd__rosidl_typesupport_introspection_cpp.hpp
+[45.512s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_actuator_state__rosidl_typesupport_introspection_cpp.hpp
+[45.512s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_actuator_state__type_support.cpp
+[45.513s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_state__type_support.cpp
+[45.514s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_light_cmd__type_support.cpp
+[45.514s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_rc_state__type_support.cpp
+[45.515s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_status__type_support.cpp
+[45.515s] -- Installing: /home/student/ros2_ws/install/scout_msgs/include/scout_msgs/scout_msgs/msg/detail/scout_status__rosidl_typesupport_introspection_cpp.hpp
+[45.516s] -- Installing: /home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_typesupport_introspection_cpp.so
+[45.517s] -- Set runtime path of "/home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[45.518s] -- Installing: /home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_typesupport_cpp.so
+[45.519s] -- Set runtime path of "/home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_typesupport_cpp.so" to ""
+[45.519s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/environment/pythonpath.sh
+[45.520s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/environment/pythonpath.dsv
+[45.521s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs-0.1.0-py3.10.egg-info
+[45.521s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[45.522s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[45.523s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[45.523s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[45.524s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs
+[45.525s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/_scout_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[45.525s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg
+[45.526s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/_scout_light_cmd_s.c
+[45.527s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/_scout_actuator_state.py
+[45.527s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/__init__.py
+[45.528s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/_scout_rc_state_s.c
+[45.529s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/_scout_light_state_s.c
+[45.529s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/_scout_light_state.py
+[45.530s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/_scout_actuator_state_s.c
+[45.531s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/_scout_status.py
+[45.531s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/_scout_light_cmd.py
+[45.531s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/_scout_status_s.c
+[45.532s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/_scout_rc_state.py
+[45.532s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/libscout_msgs__rosidl_generator_py.so
+[45.533s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/__init__.py
+[45.534s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/_scout_msgs_s.ep.rosidl_typesupport_c.c
+[45.534s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/scout_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[45.535s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/scout_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[45.536s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/_scout_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[45.536s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/scout_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[45.637s] Listing '/home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs'...
+[45.637s] Compiling '/home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/__init__.py'...
+[45.637s] Listing '/home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg'...
+[45.637s] Compiling '/home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/__init__.py'...
+[45.638s] Compiling '/home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/_scout_actuator_state.py'...
+[45.638s] Compiling '/home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/_scout_light_cmd.py'...
+[45.638s] Compiling '/home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/_scout_light_state.py'...
+[45.638s] Compiling '/home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/_scout_rc_state.py'...
+[45.639s] Compiling '/home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/msg/_scout_status.py'...
+[45.655s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/scout_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[45.656s] -- Set runtime path of "/home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/scout_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[45.657s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/scout_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[45.658s] -- Set runtime path of "/home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/scout_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[45.659s] -- Installing: /home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/scout_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[45.660s] -- Set runtime path of "/home/student/ros2_ws/install/scout_msgs/local/lib/python3.10/dist-packages/scout_msgs/scout_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[45.661s] -- Installing: /home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_generator_py.so
+[45.662s] -- Set runtime path of "/home/student/ros2_ws/install/scout_msgs/lib/libscout_msgs__rosidl_generator_py.so" to ""
+[45.663s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/msg/ScoutActuatorState.idl
+[45.664s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/msg/ScoutLightCmd.idl
+[45.664s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/msg/ScoutLightState.idl
+[45.665s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/msg/ScoutRCState.idl
+[45.666s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/msg/ScoutStatus.idl
+[45.667s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/msg/ScoutActuatorState.msg
+[45.667s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/msg/ScoutLightCmd.msg
+[45.668s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/msg/ScoutLightState.msg
+[45.669s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/msg/ScoutRCState.msg
+[45.669s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/msg/ScoutStatus.msg
+[45.670s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/ament_index/resource_index/package_run_dependencies/scout_msgs
+[45.671s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/ament_index/resource_index/parent_prefix_path/scout_msgs
+[45.672s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/environment/ament_prefix_path.sh
+[45.672s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/environment/ament_prefix_path.dsv
+[45.673s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/environment/path.sh
+[45.674s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/environment/path.dsv
+[45.675s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/local_setup.bash
+[45.675s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/local_setup.sh
+[45.676s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/local_setup.zsh
+[45.677s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/local_setup.dsv
+[45.677s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/package.dsv
+[45.678s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/ament_index/resource_index/packages/scout_msgs
+[45.679s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/export_scout_msgs__rosidl_generator_cExport.cmake
+[45.680s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/export_scout_msgs__rosidl_generator_cExport-noconfig.cmake
+[45.681s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/export_scout_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[45.681s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/export_scout_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[45.682s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/export_scout_msgs__rosidl_generator_cppExport.cmake
+[45.683s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/export_scout_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[45.684s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/export_scout_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[45.685s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/scout_msgs__rosidl_typesupport_introspection_cExport.cmake
+[45.685s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/scout_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[45.686s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/scout_msgs__rosidl_typesupport_cExport.cmake
+[45.687s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/scout_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[45.688s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/scout_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[45.689s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/scout_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[45.690s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/scout_msgs__rosidl_typesupport_cppExport.cmake
+[45.690s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/scout_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[45.691s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/export_scout_msgs__rosidl_generator_pyExport.cmake
+[45.692s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/export_scout_msgs__rosidl_generator_pyExport-noconfig.cmake
+[45.693s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/rosidl_cmake-extras.cmake
+[45.693s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.694s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[45.695s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[45.695s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[45.696s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[45.697s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[45.698s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/scout_msgsConfig.cmake
+[45.698s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake/scout_msgsConfig-version.cmake
+[45.699s] -- Installing: /home/student/ros2_ws/install/scout_msgs/share/scout_msgs/package.xml
+[45.707s] Invoked command in '/home/student/ros2_ws/build/scout_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/scout_msgs

@@ -1,0 +1,32 @@
+Panels:
+  - Class: rviz_common/DisplaysPanel
+    Display Groups:
+      Groups:
+        - Display Name: SLAM Visualization
+Displays:
+  - Name: Map
+    Class: rviz_default_plugins/Map
+    Topic: /map
+    Alpha: 0.7
+  - Name: LaserScan
+    Class: rviz_default_plugins/LaserScan
+    Topic: /scan
+    Size (Pixels): 5
+    Style: Points
+  - Name: TF
+    Class: rviz_default_plugins/TF
+    Show Axes: true
+    Update Interval: 0.2
+    Show Names: true
+    Show Arrows: true
+    Marker Scale: 1.0
+    Frame: map
+  - Name: PointCloud2
+    Class: rviz_default_plugins/PointCloud2
+    Topic: /rslidar_points
+    Style: Points
+    Point Size: 0.03
+Global Options:
+  Fixed Frame: map
+  Background Color: [0, 0, 0]
+

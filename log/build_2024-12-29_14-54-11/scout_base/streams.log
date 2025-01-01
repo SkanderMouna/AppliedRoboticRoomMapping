@@ -1,0 +1,88 @@
+[0.045s] Invoking command in '/home/student/ros2_ws/build/scout_base': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake /home/student/ros2_ws/src/scout_ros2/scout_base -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scout_base
+[0.193s] -- The C compiler identification is GNU 11.4.0
+[0.333s] -- The CXX compiler identification is GNU 11.4.0
+[0.350s] -- Detecting C compiler ABI info
+[0.509s] -- Detecting C compiler ABI info - done
+[0.533s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.534s] -- Detecting C compile features
+[0.535s] -- Detecting C compile features - done
+[0.544s] -- Detecting CXX compiler ABI info
+[0.747s] -- Detecting CXX compiler ABI info - done
+[0.771s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.772s] -- Detecting CXX compile features
+[0.773s] -- Detecting CXX compile features - done
+[0.779s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.191s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.428s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.542s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.556s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.578s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.615s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.665s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.796s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.804s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.037s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.116s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.228s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.250s] -- Looking for pthread.h
+[2.419s] -- Looking for pthread.h - found
+[2.422s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.597s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.600s] -- Found Threads: TRUE  
+[2.766s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.813s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.869s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.930s] -- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)
+[2.961s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.263s] -- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.300s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.305s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.306s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.314s] -- Found scout_msgs: 0.1.0 (/home/student/ros2_ws/install/scout_msgs/share/scout_msgs/cmake)
+[3.377s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.594s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.598s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.599s] -- Configured cppcheck include dirs: /home/student/ros2_ws/src/scout_ros2/scout_base/include
+[3.599s] -- Configured cppcheck exclude dirs and/or files: 
+[3.603s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.603s] -- Configured cpplint exclude dirs and/or files: 
+[3.605s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.608s] -- Added test 'lint_cmake' to check CMake code style
+[3.610s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.613s] -- Added test 'uncrustify' to check C / C++ code style
+[3.614s] -- Configured uncrustify additional arguments: 
+[3.616s] -- Added test 'xmllint' to check XML markup files
+[3.619s] -- Configuring done
+[3.657s] -- Generating done
+[3.672s] -- Build files have been written to: /home/student/ros2_ws/build/scout_base
+[3.708s] Invoked command in '/home/student/ros2_ws/build/scout_base' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake /home/student/ros2_ws/src/scout_ros2/scout_base -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scout_base
+[3.709s] Invoking command in '/home/student/ros2_ws/build/scout_base': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake --build /home/student/ros2_ws/build/scout_base -- -j2 -l2
+[3.826s] [ 33%] [32mBuilding CXX object CMakeFiles/scout_base_node.dir/src/scout_base_ros.cpp.o[0m
+[39.182s] [ 66%] [32mBuilding CXX object CMakeFiles/scout_base_node.dir/src/scout_base_node.cpp.o[0m
+[46.626s] [100%] [32m[1mLinking CXX executable scout_base_node[0m
+[48.784s] [100%] Built target scout_base_node
+[48.808s] Invoked command in '/home/student/ros2_ws/build/scout_base' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake --build /home/student/ros2_ws/build/scout_base -- -j2 -l2
+[48.810s] Invoking command in '/home/student/ros2_ws/build/scout_base': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake --install /home/student/ros2_ws/build/scout_base
+[48.828s] -- Install configuration: ""
+[48.828s] -- Installing: /home/student/ros2_ws/install/scout_base/lib/scout_base/scout_base_node
+[48.846s] -- Set runtime path of "/home/student/ros2_ws/install/scout_base/lib/scout_base/scout_base_node" to ""
+[48.846s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base//launch
+[48.847s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base//launch/scout_base.launch.py
+[48.847s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base//launch/scout_mini_omni_base.launch.py
+[48.848s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base//launch/scout_mini_base.launch.py
+[48.849s] -- Installing: /home/student/ros2_ws/install/scout_base/share/ament_index/resource_index/package_run_dependencies/scout_base
+[48.849s] -- Installing: /home/student/ros2_ws/install/scout_base/share/ament_index/resource_index/parent_prefix_path/scout_base
+[48.850s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/environment/ament_prefix_path.sh
+[48.852s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/environment/ament_prefix_path.dsv
+[48.855s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/environment/path.sh
+[48.855s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/environment/path.dsv
+[48.855s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/local_setup.bash
+[48.856s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/local_setup.sh
+[48.856s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/local_setup.zsh
+[48.856s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/local_setup.dsv
+[48.856s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/package.dsv
+[48.856s] -- Installing: /home/student/ros2_ws/install/scout_base/share/ament_index/resource_index/packages/scout_base
+[48.857s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/cmake/scout_baseConfig.cmake
+[48.858s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/cmake/scout_baseConfig-version.cmake
+[48.858s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/package.xml
+[48.864s] Invoked command in '/home/student/ros2_ws/build/scout_base' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/lidar_slam_nav2:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/rplidar_ros:/home/student/ros2_ws/install/cartographer_rviz:/home/student/ros2_ws/install/cartographer_ros:/home/student/ros2_ws/install/cartographer_ros_msgs /usr/bin/cmake --install /home/student/ros2_ws/build/scout_base

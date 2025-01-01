@@ -1,0 +1,59 @@
+[0.055s] Invoking command in '/home/student/ros2_ws/build/ugv_sdk': /usr/bin/cmake --build /home/student/ros2_ws/build/ugv_sdk -- -j2 -l2
+[0.415s] [ 42%] Built target ugv_sdk
+[0.551s] [ 50%] Built target demo_scout_robot
+[0.594s] [ 57%] Built target demo_scout_mini_omni_robot
+[0.667s] [ 64%] Built target demo_tracer_robot
+[0.720s] [ 71%] Built target demo_ranger_robot
+[0.748s] [ 78%] Built target demo_bunker_robot
+[0.835s] [ 85%] Built target demo_hunter_robot
+[0.853s] [ 92%] Built target demo_protocol_detector
+[0.915s] [100%] Built target demo_robot_version
+[1.689s] Invoked command in '/home/student/ros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/student/ros2_ws/build/ugv_sdk -- -j2 -l2
+[1.690s] Invoking command in '/home/student/ros2_ws/build/ugv_sdk': /usr/bin/cmake --install /home/student/ros2_ws/build/ugv_sdk
+[1.709s] -- Install configuration: "Release"
+[1.710s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/lib/libugv_sdk.a
+[1.710s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk
+[1.710s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/utilities
+[1.711s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp
+[1.711s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details
+[1.712s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port
+[1.712s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp
+[1.713s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp
+[1.713s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp
+[1.714s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface
+[1.714s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp
+[1.714s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp
+[1.715s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp
+[1.715s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp
+[1.715s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp
+[1.716s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h
+[1.716s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp
+[1.717s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp
+[1.717s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h
+[1.718s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base
+[1.718s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp
+[1.718s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp
+[1.719s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp
+[1.719s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp
+[1.719s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp
+[1.720s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp
+[1.720s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp
+[1.720s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1
+[1.721s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp
+[1.721s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h
+[1.722s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp
+[1.722s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp
+[1.722s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2
+[1.723s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp
+[1.723s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot
+[1.724s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp
+[1.724s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp
+[1.725s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp
+[1.725s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp
+[1.725s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp
+[1.730s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp
+[1.730s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake
+[1.738s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake
+[1.740s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake
+[1.741s] -- Up-to-date: /home/student/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake
+[1.741s] Invoked command in '/home/student/ros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/student/ros2_ws/build/ugv_sdk
