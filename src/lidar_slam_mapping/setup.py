@@ -9,30 +9,30 @@ setup(
     data_files=[
         # Package metadata
         ('share/' + package_name, ['package.xml']),
-        # Launch files
+        # Launch files (including mapping_autoDriving.py)
         ('share/' + package_name + '/launch', [
-            'launch/lidar_obstacle_avoidance.launch.py',
             'launch/slam_mapping_launch.py',
+            'launch/mapping_autoDriving.py',
         ]),
-        # Configuration files
+        # Configuration files (including scout_mini.yaml)
         ('share/' + package_name + '/config', [
             'config/slam_toolbox_params.yaml',
             'config/pointcloud_to_laserscan_params.yaml',
             'config/nav2_params.yaml',
+            'config/scout_mini.yaml',  # Include the Scout Mini YAML file
         ]),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Your Name',
-    maintainer_email='your_email@example.com',
-    description='Lidar-based obstacle avoidance and SLAM mapping',
+    maintainer='student',
+    maintainer_email='student@todo.todo',
+    description='A package for SLAM and autonomous driving using LiDAR.',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-            'lidar_obstacle_avoidance = lidar_slam_mapping.lidar_obstacle_avoidance:main',
-            'lidar_min_distance = lidar_slam_mapping.lidar_min_distance:main',
-        ],
-    },
-)
+    'console_scripts': [
+        'lidar_min_distance = lidar_slam_mapping.lidar_min_distance:main',
+    ],
+}
 
+)

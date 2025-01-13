@@ -1,0 +1,3 @@
+[console_scripts]
+zed2_yolo = object_recognition.zed2_yolo:main
+

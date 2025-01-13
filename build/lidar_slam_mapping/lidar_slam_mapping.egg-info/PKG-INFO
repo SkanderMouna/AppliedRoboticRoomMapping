@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
 Name: lidar-slam-mapping
 Version: 0.0.1
-Summary: Lidar-based obstacle avoidance and SLAM mapping
+Summary: A package for SLAM and autonomous driving using LiDAR.
 Home-page: UNKNOWN
-Maintainer: Your Name
-Maintainer-email: your_email@example.com
+Maintainer: student
+Maintainer-email: student@todo.todo
 License: Apache License 2.0
 Platform: UNKNOWN
 

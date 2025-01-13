@@ -1,3 +1,31 @@
+sudo ip link set can0 up type can bitrate 500000
+ros2 launch rslidar_sdk start.py use_sim_time:=True
+ros2 launch scout_base scout_base.launch.py use_sim_time:=True
+ros2 run lidar_slam_mapping lidar_min_distance use_sim_time:=True 
+
+# if this work try 
+sudo ip link set can0 up type can bitrate 500000
+ros2 launch scout_base scout_base.launch.py 
+ros2 launch lidar_slam_mapping slam_mapping_launch.py
+ros2 run lidar_slam_mapping lidar_min_distance
+
+ros2 launch lidar_slam_mapping slam_and_driving_launch.py
+ros2 launch lidar_slam_mapping  mapping_autoDriving.py use_sim_time:=True
+source ~/ros2_ws/install/setup.bash
+
+ros2 launch rslidar_sdk start.py
+ros2 run autonomous_driving lidar_min_distance
+
+ros2 launch robot_control robot_control_launch.py
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p linear_speed:=0.01 -p angular_speed:=0.1
+
+ros2 launch lidar_slam_mapping slam_mapping_launch.py
+
+ros2 launch object_recognition zed2_yolo_launch.py
+
+ros2 launch autonomous_driving auto_drive_launch.py
+
 # Applied Robotic Room Mapping
 
 ## Overview

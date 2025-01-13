@@ -1,0 +1,85 @@
+[0.052s] Invoking command in '/home/student/ros2_ws/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/robot_control:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/home/student/ros2_ws/install/autonomous_driving:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/student/ros2_ws/src/rslidar_sdk -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/rslidar_sdk
+[0.402s] -- The C compiler identification is GNU 11.4.0
+[0.706s] -- The CXX compiler identification is GNU 11.4.0
+[0.748s] -- Detecting C compiler ABI info
+[1.158s] -- Detecting C compiler ABI info - done
+[1.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.185s] -- Detecting C compile features
+[1.188s] -- Detecting C compile features - done
+[1.199s] -- Detecting CXX compiler ABI info
+[1.476s] -- Detecting CXX compiler ABI info - done
+[1.509s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.510s] -- Detecting CXX compile features
+[1.510s] -- Detecting CXX compile features - done
+[1.519s] [0m=============================================================[0m
+[1.519s] [0m-- POINT_TYPE is XYZI[0m
+[1.519s] [0m=============================================================[0m
+[1.579s] [0m=============================================================[0m
+[1.579s] [0m-- ROS Not Found. ROS Support is turned Off.[0m
+[1.579s] [0m=============================================================[0m
+[2.124s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.000s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.046s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.093s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.210s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.498s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.519s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.786s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.896s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.029s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.059s] -- Looking for pthread.h
+[4.278s] -- Looking for pthread.h - found
+[4.283s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.557s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.557s] -- Found Threads: TRUE  
+[4.870s] [0m=============================================================[0m
+[4.871s] [0m-- ROS2 Found. ROS2 Support is turned On.[0m
+[4.871s] [0m=============================================================[0m
+[4.883s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.097s] -- Found rslidar_msg: 0.0.0 (/home/student/ros2_ws/install/rslidar_msg/share/rslidar_msg/cmake)
+[5.210s] [0m=============================================================[0m
+[5.210s] [0m-- CMake run for UNIX GNU Compiler[0m
+[5.211s] [0m=============================================================[0m
+[5.219s] [0m=============================================================[0m
+[5.220s] [0m-- rs_driver Version : v1.5.16[0m
+[5.220s] [0m=============================================================[0m
+[5.656s] -- Configuring done
+[5.732s] -- Generating done
+[5.755s] -- Build files have been written to: /home/student/ros2_ws/build/rslidar_sdk
+[5.815s] Invoked command in '/home/student/ros2_ws/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/robot_control:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/home/student/ros2_ws/install/autonomous_driving:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/student/ros2_ws/src/rslidar_sdk -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/rslidar_sdk
+[5.829s] Invoking command in '/home/student/ros2_ws/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/robot_control:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/home/student/ros2_ws/install/autonomous_driving:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/student/ros2_ws/build/rslidar_sdk -- -j2 -l2
+[6.083s] [ 33%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o[0m
+[22.205s] [ 66%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o[0m
+[93.250s] [100%] [32m[1mLinking CXX executable rslidar_sdk_node[0m
+[94.154s] [100%] Built target rslidar_sdk_node
+[94.202s] Invoked command in '/home/student/ros2_ws/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/robot_control:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/home/student/ros2_ws/install/autonomous_driving:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/student/ros2_ws/build/rslidar_sdk -- -j2 -l2
+[94.203s] Invoking command in '/home/student/ros2_ws/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/robot_control:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/home/student/ros2_ws/install/autonomous_driving:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/student/ros2_ws/build/rslidar_sdk
+[94.220s] -- Install configuration: "Release"
+[94.221s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/config
+[94.222s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/config/config.yaml
+[94.226s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node
+[94.245s] -- Set runtime path of "/home/student/ros2_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node" to ""
+[94.252s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/launch
+[94.252s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch
+[94.256s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py
+[94.258s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.py
+[94.262s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/rviz
+[94.269s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz
+[94.270s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz
+[94.270s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk
+[94.270s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk
+[94.271s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh
+[94.271s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv
+[94.271s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh
+[94.271s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv
+[94.272s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash
+[94.272s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh
+[94.273s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh
+[94.273s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv
+[94.273s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv
+[94.273s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk
+[94.273s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake
+[94.273s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake
+[94.276s] -- Installing: /home/student/ros2_ws/install/rslidar_sdk/share/rslidar_sdk/package.xml
+[94.284s] Invoked command in '/home/student/ros2_ws/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/robot_control:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/home/student/ros2_ws/install/autonomous_driving:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/student/ros2_ws/build/rslidar_sdk

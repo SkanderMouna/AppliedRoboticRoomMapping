@@ -1,0 +1,39 @@
+# Scout Mini configuration for motor control and ROS integration
+
+# Communication settings
+scout_mini_driver:
+  can_interface: "can0"          # CAN bus interface (e.g., can0, can1)
+  baudrate: 500000               # Baud rate for CAN communication
+  control_mode: "velocity"       # Control mode: velocity or position
+
+# Robot parameters
+robot_params:
+  wheel_base: 0.285              # Distance between front and rear axles (meters)
+  wheel_track: 0.36              # Distance between left and right wheels (meters)
+  wheel_radius: 0.076            # Radius of the wheels (meters)
+
+# Control parameters
+control_params:
+  max_speed: 2.0                 # Maximum speed (m/s)
+  max_acceleration: 1.0          # Maximum acceleration (m/s^2)
+  max_deceleration: 1.0          # Maximum deceleration (m/s^2)
+  max_angular_speed: 1.5         # Maximum angular speed (rad/s)
+
+# Topic remappings
+topics:
+  cmd_vel: "/cmd_vel"            # Velocity command topic
+  odometry: "/odom"              # Odometry topic
+  joint_states: "/joint_states"  # Joint states topic for the robot
+
+# Sensor integration
+sensors:
+  imu:
+    enable: true                 # Enable IMU sensor integration
+    topic: "/imu"                # IMU topic
+  battery:
+    enable: true                 # Enable battery status monitoring
+    topic: "/battery_state"      # Battery status topic
+
+# Logging
+logging:
+  level: "info"                  # Logging level: debug, info, warn, error

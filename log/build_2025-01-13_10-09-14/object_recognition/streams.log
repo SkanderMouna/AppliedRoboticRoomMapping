@@ -1,0 +1,39 @@
+[3.752s] Invoking command in '/home/student/ros2_ws/src/object_recognition': PYTHONPATH=/home/student/ros2_ws/build/object_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/object_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_recognition build --build-base /home/student/ros2_ws/build/object_recognition/build install --record /home/student/ros2_ws/build/object_recognition/install.log --single-version-externally-managed install_data
+[4.808s] running egg_info
+[4.815s] creating ../../build/object_recognition/object_recognition.egg-info
+[4.816s] writing ../../build/object_recognition/object_recognition.egg-info/PKG-INFO
+[4.816s] writing dependency_links to ../../build/object_recognition/object_recognition.egg-info/dependency_links.txt
+[4.816s] writing entry points to ../../build/object_recognition/object_recognition.egg-info/entry_points.txt
+[4.826s] writing requirements to ../../build/object_recognition/object_recognition.egg-info/requires.txt
+[4.827s] writing top-level names to ../../build/object_recognition/object_recognition.egg-info/top_level.txt
+[4.827s] writing manifest file '../../build/object_recognition/object_recognition.egg-info/SOURCES.txt'
+[4.830s] reading manifest file '../../build/object_recognition/object_recognition.egg-info/SOURCES.txt'
+[4.845s] writing manifest file '../../build/object_recognition/object_recognition.egg-info/SOURCES.txt'
+[4.846s] running build
+[4.846s] running build_py
+[4.846s] creating /home/student/ros2_ws/build/object_recognition/build
+[4.846s] creating /home/student/ros2_ws/build/object_recognition/build/lib
+[4.847s] creating /home/student/ros2_ws/build/object_recognition/build/lib/object_recognition
+[4.847s] copying object_recognition/__init__.py -> /home/student/ros2_ws/build/object_recognition/build/lib/object_recognition
+[4.847s] copying object_recognition/zed2_yolo.py -> /home/student/ros2_ws/build/object_recognition/build/lib/object_recognition
+[4.851s] running install
+[4.851s] running install_lib
+[4.855s] creating /home/student/ros2_ws/install/object_recognition/lib/python3.10/site-packages/object_recognition
+[4.856s] copying /home/student/ros2_ws/build/object_recognition/build/lib/object_recognition/__init__.py -> /home/student/ros2_ws/install/object_recognition/lib/python3.10/site-packages/object_recognition
+[4.856s] copying /home/student/ros2_ws/build/object_recognition/build/lib/object_recognition/zed2_yolo.py -> /home/student/ros2_ws/install/object_recognition/lib/python3.10/site-packages/object_recognition
+[4.856s] byte-compiling /home/student/ros2_ws/install/object_recognition/lib/python3.10/site-packages/object_recognition/__init__.py to __init__.cpython-310.pyc
+[4.859s] byte-compiling /home/student/ros2_ws/install/object_recognition/lib/python3.10/site-packages/object_recognition/zed2_yolo.py to zed2_yolo.cpython-310.pyc
+[4.864s] running install_data
+[4.865s] creating /home/student/ros2_ws/install/object_recognition/share/ament_index
+[4.866s] creating /home/student/ros2_ws/install/object_recognition/share/ament_index/resource_index
+[4.866s] creating /home/student/ros2_ws/install/object_recognition/share/ament_index/resource_index/packages
+[4.866s] copying resource/object_recognition -> /home/student/ros2_ws/install/object_recognition/share/ament_index/resource_index/packages
+[4.866s] copying package.xml -> /home/student/ros2_ws/install/object_recognition/share/object_recognition
+[4.866s] creating /home/student/ros2_ws/install/object_recognition/share/object_recognition/launch
+[4.867s] copying launch/zed2_yolo_launch.py -> /home/student/ros2_ws/install/object_recognition/share/object_recognition/launch
+[4.868s] running install_egg_info
+[4.877s] Copying ../../build/object_recognition/object_recognition.egg-info to /home/student/ros2_ws/install/object_recognition/lib/python3.10/site-packages/object_recognition-0.0.0-py3.10.egg-info
+[4.878s] running install_scripts
+[4.946s] Installing zed2_yolo script to /home/student/ros2_ws/install/object_recognition/lib/object_recognition
+[4.946s] writing list of installed files to '/home/student/ros2_ws/build/object_recognition/install.log'
+[5.068s] Invoked command in '/home/student/ros2_ws/src/object_recognition' returned '0': PYTHONPATH=/home/student/ros2_ws/build/object_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/object_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_recognition build --build-base /home/student/ros2_ws/build/object_recognition/build install --record /home/student/ros2_ws/build/object_recognition/install.log --single-version-externally-managed install_data

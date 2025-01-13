@@ -1,0 +1,62 @@
+[0.068s] Invoking command in '/home/student/ros2_ws/build/scout_description': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/robot_control:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/home/student/ros2_ws/install/autonomous_driving:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg /usr/bin/cmake /home/student/ros2_ws/src/scout_ros2/scout_description -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scout_description
+[0.275s] -- The C compiler identification is GNU 11.4.0
+[0.486s] -- The CXX compiler identification is GNU 11.4.0
+[0.515s] -- Detecting C compiler ABI info
+[0.809s] -- Detecting C compiler ABI info - done
+[0.867s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.871s] -- Detecting C compile features
+[0.872s] -- Detecting C compile features - done
+[0.900s] -- Detecting CXX compiler ABI info
+[1.486s] -- Detecting CXX compiler ABI info - done
+[1.520s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.521s] -- Detecting CXX compile features
+[1.521s] -- Detecting CXX compile features - done
+[1.560s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.092s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.542s] -- Configuring done
+[2.543s] -- Generating done
+[2.546s] -- Build files have been written to: /home/student/ros2_ws/build/scout_description
+[2.562s] Invoked command in '/home/student/ros2_ws/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/robot_control:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/home/student/ros2_ws/install/autonomous_driving:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg /usr/bin/cmake /home/student/ros2_ws/src/scout_ros2/scout_description -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/scout_description
+[2.566s] Invoking command in '/home/student/ros2_ws/build/scout_description': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/robot_control:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/home/student/ros2_ws/install/autonomous_driving:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg /usr/bin/cmake --build /home/student/ros2_ws/build/scout_description -- -j2 -l2
+[2.677s] Invoked command in '/home/student/ros2_ws/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/robot_control:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/home/student/ros2_ws/install/autonomous_driving:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg /usr/bin/cmake --build /home/student/ros2_ws/build/scout_description -- -j2 -l2
+[2.678s] Invoking command in '/home/student/ros2_ws/build/scout_description': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/robot_control:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/home/student/ros2_ws/install/autonomous_driving:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg /usr/bin/cmake --install /home/student/ros2_ws/build/scout_description
+[2.696s] -- Install configuration: ""
+[2.697s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//launch
+[2.698s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//launch/scout_base_description.launch.py
+[2.700s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//urdf
+[2.701s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//urdf/scout_mini
+[2.701s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//urdf/scout_mini/scout_mini.urdf
+[2.703s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//urdf/scout_mini/scout_mini.xacro
+[2.704s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//urdf/scout_mini/scout_mini_wheel.xacro
+[2.705s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//urdf/generate_urdf.sh
+[2.707s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//urdf/scout_v2
+[2.707s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//urdf/scout_v2/scout_v2.xacro
+[2.712s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//urdf/scout_v2/scout_v2.urdf
+[2.715s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//urdf/scout_v2/scout_wheel_type1.xacro
+[2.716s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//urdf/scout_v2/scout_wheel_type2.xacro
+[2.716s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//meshes
+[2.717s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//meshes/scout_mini
+[2.717s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//meshes/scout_mini/mini_wheel.dae
+[2.778s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//meshes/scout_mini/mini_base_link.dae
+[2.860s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//meshes/scout_v2
+[2.860s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//meshes/scout_v2/base_link_full.dae
+[2.861s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//meshes/scout_v2/wheel_type2.dae
+[2.888s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//meshes/scout_v2/wheel_type1.dae
+[2.903s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//meshes/scout_v2/hokuyo.dae
+[2.905s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description//meshes/scout_v2/base_link.dae
+[2.970s] -- Installing: /home/student/ros2_ws/install/scout_description/share/ament_index/resource_index/package_run_dependencies/scout_description
+[2.970s] -- Installing: /home/student/ros2_ws/install/scout_description/share/ament_index/resource_index/parent_prefix_path/scout_description
+[2.971s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description/environment/ament_prefix_path.sh
+[2.971s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description/environment/ament_prefix_path.dsv
+[2.972s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description/environment/path.sh
+[2.972s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description/environment/path.dsv
+[2.974s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description/local_setup.bash
+[2.974s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description/local_setup.sh
+[2.974s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description/local_setup.zsh
+[2.975s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description/local_setup.dsv
+[2.975s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description/package.dsv
+[2.983s] -- Installing: /home/student/ros2_ws/install/scout_description/share/ament_index/resource_index/packages/scout_description
+[2.984s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description/cmake/scout_descriptionConfig.cmake
+[2.984s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description/cmake/scout_descriptionConfig-version.cmake
+[2.984s] -- Installing: /home/student/ros2_ws/install/scout_description/share/scout_description/package.xml
+[2.991s] Invoked command in '/home/student/ros2_ws/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/robot_control:/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/home/student/ros2_ws/install/autonomous_driving:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg /usr/bin/cmake --install /home/student/ros2_ws/build/scout_description
