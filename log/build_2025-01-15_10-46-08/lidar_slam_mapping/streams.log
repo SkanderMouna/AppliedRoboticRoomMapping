@@ -1,0 +1,31 @@
+[3.591s] Invoking command in '/home/student/ros2_ws/src/lidar_slam_mapping': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/student/ros2_ws/build/lidar_slam_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/lidar_slam_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_slam_mapping build --build-base /home/student/ros2_ws/build/lidar_slam_mapping/build install --record /home/student/ros2_ws/build/lidar_slam_mapping/install.log --single-version-externally-managed install_data
+[4.509s] running egg_info
+[4.511s] creating ../../build/lidar_slam_mapping/lidar_slam_mapping.egg-info
+[4.512s] writing ../../build/lidar_slam_mapping/lidar_slam_mapping.egg-info/PKG-INFO
+[4.513s] writing dependency_links to ../../build/lidar_slam_mapping/lidar_slam_mapping.egg-info/dependency_links.txt
+[4.513s] writing entry points to ../../build/lidar_slam_mapping/lidar_slam_mapping.egg-info/entry_points.txt
+[4.514s] writing requirements to ../../build/lidar_slam_mapping/lidar_slam_mapping.egg-info/requires.txt
+[4.515s] writing top-level names to ../../build/lidar_slam_mapping/lidar_slam_mapping.egg-info/top_level.txt
+[4.516s] writing manifest file '../../build/lidar_slam_mapping/lidar_slam_mapping.egg-info/SOURCES.txt'
+[4.520s] reading manifest file '../../build/lidar_slam_mapping/lidar_slam_mapping.egg-info/SOURCES.txt'
+[4.523s] writing manifest file '../../build/lidar_slam_mapping/lidar_slam_mapping.egg-info/SOURCES.txt'
+[4.523s] running build
+[4.524s] running build_py
+[4.524s] creating /home/student/ros2_ws/build/lidar_slam_mapping/build
+[4.525s] creating /home/student/ros2_ws/build/lidar_slam_mapping/build/lib
+[4.525s] creating /home/student/ros2_ws/build/lidar_slam_mapping/build/lib/lidar_slam_mapping
+[4.526s] copying lidar_slam_mapping/__init__.py -> /home/student/ros2_ws/build/lidar_slam_mapping/build/lib/lidar_slam_mapping
+[4.526s] copying lidar_slam_mapping/lidar_min_distance.py -> /home/student/ros2_ws/build/lidar_slam_mapping/build/lib/lidar_slam_mapping
+[4.527s] running install
+[4.529s] running install_lib
+[4.531s] creating /home/student/ros2_ws/install/lidar_slam_mapping/lib/python3.10/site-packages/lidar_slam_mapping
+[4.531s] copying /home/student/ros2_ws/build/lidar_slam_mapping/build/lib/lidar_slam_mapping/__init__.py -> /home/student/ros2_ws/install/lidar_slam_mapping/lib/python3.10/site-packages/lidar_slam_mapping
+[4.532s] copying /home/student/ros2_ws/build/lidar_slam_mapping/build/lib/lidar_slam_mapping/lidar_min_distance.py -> /home/student/ros2_ws/install/lidar_slam_mapping/lib/python3.10/site-packages/lidar_slam_mapping
+[4.534s] byte-compiling /home/student/ros2_ws/install/lidar_slam_mapping/lib/python3.10/site-packages/lidar_slam_mapping/__init__.py to __init__.cpython-310.pyc
+[4.535s] byte-compiling /home/student/ros2_ws/install/lidar_slam_mapping/lib/python3.10/site-packages/lidar_slam_mapping/lidar_min_distance.py to lidar_min_distance.cpython-310.pyc
+[4.536s] running install_data
+[4.538s] copying package.xml -> /home/student/ros2_ws/install/lidar_slam_mapping/share/lidar_slam_mapping
+[4.539s] creating /home/student/ros2_ws/install/lidar_slam_mapping/share/lidar_slam_mapping/launch
+[4.540s] copying launch/slam_mapping_launch.py -> /home/student/ros2_ws/install/lidar_slam_mapping/share/lidar_slam_mapping/launch
+[4.540s] error: can't copy 'launch/mapping_autoDriving.py': doesn't exist or not a regular file
+[4.614s] Invoked command in '/home/student/ros2_ws/src/lidar_slam_mapping' returned '1': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_description LD_LIBRARY_PATH=/home/student/ros2_ws/install/rslidar_msg/lib:/home/student/ros2_ws/install/scout_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/student/ros2_ws/build/lidar_slam_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/lidar_slam_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_slam_mapping build --build-base /home/student/ros2_ws/build/lidar_slam_mapping/build install --record /home/student/ros2_ws/build/lidar_slam_mapping/install.log --single-version-externally-managed install_data

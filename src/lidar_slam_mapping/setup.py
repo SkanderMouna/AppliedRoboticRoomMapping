@@ -7,19 +7,15 @@ setup(
     version='0.0.1',
     packages=find_packages(include=[package_name, f"{package_name}.*"]),
     data_files=[
-        # Package metadata
         ('share/' + package_name, ['package.xml']),
-        # Launch files (including mapping_autoDriving.py)
         ('share/' + package_name + '/launch', [
-            'launch/slam_mapping_launch.py',
-            'launch/mapping_autoDriving.py',
+            'launch/slam_mapping_launch.py'
         ]),
-        # Configuration files (including scout_mini.yaml)
         ('share/' + package_name + '/config', [
             'config/slam_toolbox_params.yaml',
             'config/pointcloud_to_laserscan_params.yaml',
             'config/nav2_params.yaml',
-            'config/scout_mini.yaml',  # Include the Scout Mini YAML file
+            'config/scout_mini.yaml',  
         ]),
     ],
     install_requires=['setuptools'],

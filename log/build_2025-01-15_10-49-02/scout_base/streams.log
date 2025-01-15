@@ -1,0 +1,28 @@
+[0.083s] Invoking command in '/home/student/ros2_ws/build/scout_base': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg /usr/bin/cmake --build /home/student/ros2_ws/build/scout_base -- -j2 -l2
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target scout_base_node[0m
+[0.295s] [100%] Built target scout_base_node
+[0.341s] Invoked command in '/home/student/ros2_ws/build/scout_base' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg /usr/bin/cmake --build /home/student/ros2_ws/build/scout_base -- -j2 -l2
+[0.342s] Invoking command in '/home/student/ros2_ws/build/scout_base': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg /usr/bin/cmake --install /home/student/ros2_ws/build/scout_base
+[0.359s] -- Install configuration: ""
+[0.360s] -- Installing: /home/student/ros2_ws/install/scout_base/lib/scout_base/scout_base_node
+[0.379s] -- Set runtime path of "/home/student/ros2_ws/install/scout_base/lib/scout_base/scout_base_node" to ""
+[0.380s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base//launch
+[0.382s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base//launch/scout_base.launch.py
+[0.388s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base//launch/scout_mini_omni_base.launch.py
+[0.391s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base//launch/scout_mini_base.launch.py
+[0.395s] -- Installing: /home/student/ros2_ws/install/scout_base/share/ament_index/resource_index/package_run_dependencies/scout_base
+[0.397s] -- Installing: /home/student/ros2_ws/install/scout_base/share/ament_index/resource_index/parent_prefix_path/scout_base
+[0.399s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/environment/ament_prefix_path.sh
+[0.402s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/environment/ament_prefix_path.dsv
+[0.405s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/environment/path.sh
+[0.408s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/environment/path.dsv
+[0.412s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/local_setup.bash
+[0.420s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/local_setup.sh
+[0.421s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/local_setup.zsh
+[0.422s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/local_setup.dsv
+[0.427s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/package.dsv
+[0.428s] -- Installing: /home/student/ros2_ws/install/scout_base/share/ament_index/resource_index/packages/scout_base
+[0.430s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/cmake/scout_baseConfig.cmake
+[0.436s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/cmake/scout_baseConfig-version.cmake
+[0.436s] -- Installing: /home/student/ros2_ws/install/scout_base/share/scout_base/package.xml
+[0.456s] Invoked command in '/home/student/ros2_ws/build/scout_base' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/lidar_slam_mapping:/home/student/ros2_ws/install/object_recognition:/opt/ros/humble:/home/student/ros2_ws/install/ugv_sdk:/home/student/ros2_ws/install/scout_msgs:/home/student/ros2_ws/install/scout_base:/home/student/ros2_ws/install/scout_description:/home/student/ros2_ws/install/rslidar_sdk:/home/student/ros2_ws/install/rslidar_msg /usr/bin/cmake --install /home/student/ros2_ws/build/scout_base

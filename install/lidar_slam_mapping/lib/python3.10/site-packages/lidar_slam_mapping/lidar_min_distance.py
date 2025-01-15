@@ -26,7 +26,6 @@ def generate_launch_description():
 
     rviz_config_file = '/opt/ros/humble/share/nav2_bringup/rviz/nav2_default_view.rviz'
 
-    # Path to save/load the map
     map_file_path = PathJoinSubstitution([
         FindPackageShare('lidar_slam_mapping'), 'maps', 'my_map.yaml'
     ])
@@ -51,25 +50,25 @@ def generate_launch_description():
             output='screen',
             parameters=[pointcloud_to_laserscan_params_file],
             remappings=[
-                ('/cloud_in', '/rslidar_points'),  # Input: PointCloud2
-                ('/scan', '/scan'),  # Output: LaserScan for SLAM Toolbox
+                ('/cloud_in', '/rslidar_points'),  
+                ('/scan', '/scan'),  
             ],
         ),
 
         # SLAM Toolbox Node
         Node(
             package='slam_toolbox',
-            executable='sync_slam_toolbox_node',  # Synchronous SLAM mode
+            executable='sync_slam_toolbox_node',  
             name='slam_toolbox',
             output='screen',
             parameters=[
                 slam_toolbox_params_file,
-                {'map_file_name': map_file_path},  # Load or save map here
-                {'use_sim_time': False}  # Use real-time (set to True for simulation)
+                {'map_file_name': map_file_path},  
+                {'use_sim_time': False}  
             ],
             remappings=[
-                ('/scan', '/scan'),  # Input LaserScan
-                ('/map', '/map'),    # Output Map
+                ('/scan', '/scan'), 
+                ('/map', '/map'),   
             ],
         ),
 
