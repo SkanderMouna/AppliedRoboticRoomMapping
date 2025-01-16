@@ -26,6 +26,11 @@ def generate_launch_description():
 
     rviz_config_file = '/opt/ros/humble/share/nav2_bringup/rviz/nav2_default_view.rviz'
 
+    # Path to save/load the map
+    map_file_path = PathJoinSubstitution([
+        FindPackageShare('lidar_slam_mapping'), 'maps', 'my_map.yaml'
+    ])
+
     return LaunchDescription([
         # LiDAR Node
         Node(
@@ -57,7 +62,11 @@ def generate_launch_description():
             executable='sync_slam_toolbox_node',  # Synchronous SLAM mode
             name='slam_toolbox',
             output='screen',
-            parameters=[slam_toolbox_params_file],
+            parameters=[
+                slam_toolbox_params_file,
+                {'map_file_name': map_file_path},  # Load or save map here
+                {'use_sim_time': False}  # Use real-time (set to True for simulation)
+            ],
             remappings=[
                 ('/scan', '/scan'),  # Input LaserScan
                 ('/map', '/map'),    # Output Map
