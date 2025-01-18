@@ -1,3 +1,0 @@
-[console_scripts]
-lidar_min_distance = lidar_slam_mapping.lidar_min_distance:main
-
