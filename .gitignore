@@ -2,3 +2,5 @@ install/
 build/
 bags/
 log/
+src/object_recognition/yolov3-tiny.weights
+src/object_recognition/yolov3.weights

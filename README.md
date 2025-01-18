@@ -184,3 +184,9 @@ Developed by Hof University Students:
 
 Utilizing repositories from Agilex, RoboSense, and YOLO for ROS2.
 
+Github repo yolo weight cfg and names
+https://pjreddie.com/media/files/yolov3.weights
+https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
+https://github.com/pjreddie/darknet/blob/master/data/coco.names
+https://pjreddie.com/media/files/yolov3-tiny.weights
+https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-tiny.cfg
