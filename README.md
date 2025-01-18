@@ -189,4 +189,4 @@ https://pjreddie.com/media/files/yolov3.weights
 https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
 https://github.com/pjreddie/darknet/blob/master/data/coco.names
 https://pjreddie.com/media/files/yolov3-tiny.weights
-https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-tiny.cfg
+https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-tiny.cfg 
