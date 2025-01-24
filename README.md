@@ -75,6 +75,18 @@ This project was developed as part of an applied robotics curriculum at Hof Univ
   - Developed a Python script: `zed2_yolo.py`.
   - Integrates ZED2 camera data for object detection using YOLO.
 
+  **Important Note:** Due to hardware limitations (e.g., lack of high-performance GPUs in some laptops and reliance on virtual machines), the project includes YOLOv3 with OpenCV integration as an alternative to YOLOv5 and the ZED SDK. This setup reduces hardware dependency while maintaining object detection functionality.
+
+  - YOLOv3 configuration files:
+    - Pre-trained weights: [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)
+    - Configuration file: [yolov3.cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg)
+    - Labels: [coco.names](https://github.com/pjreddie/darknet/blob/master/data/coco.names)
+
+  - For systems without GPU support, the script relies on YOLOv3 and OpenCV for real-time object detection:
+    ```bash
+    python3 zed2_yolo.py
+    ```
+
 ---
 
 ### **Workflow Summary**
@@ -129,12 +141,12 @@ This project was developed as part of an applied robotics curriculum at Hof Univ
 - **Platform:** Ubuntu 22.04 with ROS2 Humble.
 - **Hardware:**
   - Agilex Scout Mini
-  - RS-LiDAR (RSHELIOS\_16P)
+  - RS-LiDAR (RSHELIOS_16P)
   - ZED2 Camera
 - **Software:**
   - SLAM Toolbox
   - Nav2 for navigation
-  - YOLO for object recognition
+  - YOLO (v3 and v5, with fallback to OpenCV integration for YOLOv3)
 
 ---
 
@@ -184,9 +196,9 @@ Developed by Hof University Students:
 
 Utilizing repositories from Agilex, RoboSense, and YOLO for ROS2.
 
-Github repo yolo weight cfg and names
-https://pjreddie.com/media/files/yolov3.weights
-https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
-https://github.com/pjreddie/darknet/blob/master/data/coco.names
-https://pjreddie.com/media/files/yolov3-tiny.weights
-https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-tiny.cfg 
+**YOLOv3 Resources:**
+- [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)
+- [yolov3.cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg)
+- [coco.names](https://github.com/pjreddie/darknet/blob/master/data/coco.names)
+
+For larger files like `yolov3.weights`, please download directly from the links provided above.
